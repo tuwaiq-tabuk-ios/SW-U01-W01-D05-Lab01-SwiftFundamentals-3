@@ -17,3 +17,14 @@
 //: You’ve learned how to pass information in to a function. Now learn how to get information out.
 //:
 //: [Previous](@previous)  |  page 5 of 17  |  [Next: Getting Values Back](@next)
+
+
+print("\n\n- - - - - Exercice1 - - - - -")
+
+func favoritFood(catego:String,favorite:String){
+    let Catego = "food"
+    let favorite = "cheese"
+print("My favorite \(Catego) is \(favorite)")
+    
+}
+favoritFood(catego: "fruits", favorite: "Strawberry")
