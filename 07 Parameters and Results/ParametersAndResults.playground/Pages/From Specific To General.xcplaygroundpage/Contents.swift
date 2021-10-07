@@ -18,6 +18,7 @@ Instead of writing multiple specific functions to say hello to every possible na
 func hello(name: String) {
     print("Hello " + name)
 }
+hello(name: "ahmed")
 /*:
  Inside the body of the function, `name` can be used just like the constant in `helloJohnny()` above.
  
@@ -36,3 +37,8 @@ hello(name: "Vikram")
 //: Next get some practice by making your own function that takes an argument.
 //:
 //: [Previous](@previous)  |  page 2 of 17  |  [Next: Your Favorite Food](@next)
+hello(name: "mohmmed")
+
+hello(name: "yossef")
+
+hello(name: "mohmmed")

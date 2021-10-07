@@ -25,3 +25,8 @@ printHello(to: "Maya")
  
 [Previous](@previous)  |  page 10 of 17  |  [Next: Parameter Names and Argument Labels](@next)
 */
+func getTheFirstLetter(of: String) -> Character!{
+    return of.first
+}
+
+print(getTheFirstLetter(of: "Ahmed")!)
