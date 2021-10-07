@@ -20,3 +20,4 @@
  Next, learn about the two ways you will most often see types declared in the documentation.
 */
 //: [Previous](@previous)  |  page 11 of 17  |  [Next: Classes and Structs](@next)
+// It was opened with news and applications and searched for everything I wanted

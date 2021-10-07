@@ -5,12 +5,15 @@
  
  The function below has an unnecessary argument label when you call it.
 */
+
+import Security
 func holler(phrase: String) -> String {
     return "⚡️\(phrase)!!⚡️"
 }
 
 holler(phrase: "Thank you, this is very nice.")
 holler(phrase: "I'm not sure that was necessary.")
+
 /*:
  
  _Copyright © 2017 Apple Inc._
@@ -23,3 +26,10 @@ holler(phrase: "I'm not sure that was necessary.")
  */
  
 //: [Previous](@previous)  |  page 17 of 17
+func holler2(_ Text: String) -> String {
+    return "⚡️\(Text)!!⚡️"
+}
+
+holler2("Thank you, this is very nice.")
+holler2("I'm not sure that was necessary.")
+
