@@ -19,8 +19,16 @@ hello(firstName: "John", lastName: "Snow")
 //: - Experiment: Call the function a few more times with the names of your favorite celebrities. Note how autocompletion tells you about both parameters and how you can use the Tab key to move to the next argument.
 
 
-
-
 //: Get some more practice with this sort of function on the next page.
 //:
 //: [Previous](@previous)  |  page 4 of 17  |  [Next: Other Favorite Things](@next)
+func hello1(firstName: String, lastName: String) {
+    print("Hello \(firstName) \(lastName)")
+}
+
+hello1(firstName: "Johnny", lastName: "Appleseed")
+hello1(firstName: "John", lastName: "Snow")
+
+//here is my calling functions:
+hello1(firstName: "Johnny", lastName: "Depp")
+hello1(firstName: "Angelina", lastName: "Jolie")

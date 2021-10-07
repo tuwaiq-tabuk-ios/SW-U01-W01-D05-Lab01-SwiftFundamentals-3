@@ -7,7 +7,7 @@ func helloJohnny() {
     let name = "Johnny"
     print("Hello " + name)
 }
-helloJohnny()
+//helloJohnny()
 /*:
  The function `helloJohnny()` is very _specific_. If you wanted to say hello to Vikram, you'd need to write a `helloVikram()` function. That would soon get tedious, and programmers don’t like to repeat themselves or do more work than is absolutely necessary.
 
@@ -25,8 +25,8 @@ func hello(name: String) {
  
  Later, when someone uses the function, they can tell the function what the value of the `name` parameter should be. This is called _passing in a value_. The value you pass in to the function is called the _argument_.
 */
-hello(name: "Maria")
-hello(name: "Vikram")
+//hello(name: "Maria")
+//hello(name: "Vikram")
 
 //: - experiment: Call the function a few more times, passing in different arguments. Notice that the autocompletion pop up tells you that the function has a `String` parameter called `name`.
 
@@ -36,3 +36,11 @@ hello(name: "Vikram")
 //: Next get some practice by making your own function that takes an argument.
 //:
 //: [Previous](@previous)  |  page 2 of 17  |  [Next: Your Favorite Food](@next)
+func hello1(name: String) {
+    print("Hello " + name)
+}
+//hello1(name: "Maria")
+//hello1(name: "Vikram")
+hello1(name: "Hajar")
+hello1(name: "Sara")
+hello1(name: "Maha")

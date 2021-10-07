@@ -12,11 +12,11 @@ The parameter in `print` does not have an argument label. To declare a parameter
 
 For example:
 */
-func printHelloTo(_ name: String) {
-    print("Hello " + name)
-}
-printHelloTo("Maya")
-printHelloTo("Hiro")
+//func printHelloTo(_ name: String) {
+   // print("Hello " + name)
+//}
+//printHelloTo("Maya")
+//printHelloTo("Hiro")
 //: - experiment: Call the `printHelloTo` function a few more times. Notice that the autocompletion popup shows the parameter name, not the argument label.
 
 
@@ -24,3 +24,12 @@ printHelloTo("Hiro")
 //: Now it’s time to summarize what you’ve learned.
 //:
 //: [Previous](@previous)  |  page 12 of 17  |  [Next: Wrapup](@next)
+func printHelloTo1(_ name: String) {
+    print("Hello " + name)
+}
+printHelloTo1("Maya")
+printHelloTo1("Hiro")
+
+printHelloTo1("Hajar")
+printHelloTo1("Sara")
+

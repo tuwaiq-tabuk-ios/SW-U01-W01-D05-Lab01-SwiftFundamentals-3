@@ -5,18 +5,18 @@
 
  The function `impossibleBeliefsCount` takes several numbers of reported unlikely incidents. It then prints the number of impossible things to be believed:
 */
-func impossibleBeliefsCount(pigsFlying: Int, frogsBecomingPrinces: Int, multipleLightningStrikes: Int) {
-    let total = pigsFlying + frogsBecomingPrinces + multipleLightningStrikes
-    print(total)
-}
+//func impossibleBeliefsCount(pigsFlying: Int, frogsBecomingPrinces: Int, multipleLightningStrikes: Int) {
+   // let total = pigsFlying + frogsBecomingPrinces + multipleLightningStrikes
+    //print(total)
+//}
 //: - callout(Exercise):Update the `impossibleBeliefsCount` function so that instead of printing the value, it returns it as an `Int`.
 //:
 //: `impossibleThingsPhrase` creates a phrase using string interpolation:
-func impossibleThingsPhrase() -> String {
-    let numberOfImpossibleThings = 10
-    let meal = "teatime"
-    return "Why, I've believed as many as \(numberOfImpossibleThings) before \(meal)"
-}
+//func impossibleThingsPhrase() -> String {
+    //let numberOfImpossibleThings = 10
+    //let meal = "teatime"
+    //return "Why, I've believed as many as \(numberOfImpossibleThings) before \(meal)"
+//}
 //: - callout(Exercise): Update the `impossibleThingsPhrase` function so that, instead of using its two internal constants, it takes two arguments: `numberOfImpossibleThings` as an `Int` and `meal` as a `String`.
 //:
 //: Now you have two functions that take parameters and return values.
@@ -29,3 +29,39 @@ func impossibleThingsPhrase() -> String {
 
 
 //: [Previous](@previous)  |  page 15 of 17  |  [Next: Exercise: Argument Label](@next)
+// Exercise 1
+
+func impossibleBeliefsCount(pigsFlying: Int, frogsBecomingPrinces: Int, multipleLightningStrikes: Int) -> Int{
+    let total = pigsFlying + frogsBecomingPrinces + multipleLightningStrikes
+    print(total)
+    return total
+}
+
+impossibleBeliefsCount (pigsFlying: 4, frogsBecomingPrinces: 1, multipleLightningStrikes: 2)
+
+
+
+
+// Exercise 2
+
+func impossibleThingsPhrase(numberOfImpossibleThings: Int, meal: String) -> String {
+  //  let numberOfImpossibleThings = 10
+  //  let meal = "teatime"
+    return "Why, I've believed as many as \(numberOfImpossibleThings) before \(meal)"
+    
+}
+    
+impossibleThingsPhrase( numberOfImpossibleThings:10 , meal: "teatime")
+    
+
+
+
+    
+// Exercise 3
+
+//Call impossibleBeliefsCount and store the result in a constant.
+let result = impossibleBeliefsCount (pigsFlying: 4, frogsBecomingPrinces: 1, multipleLightningStrikes: 2)
+
+//Call impossibleThingsPhrase, passing in the result of impossibleBeliefsCount as one of the arguments.
+impossibleThingsPhrase(numberOfImpossibleThings: (result) , meal: "teatime")
+
