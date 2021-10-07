@@ -12,6 +12,12 @@
  - callout(Exercise): Put the print statement above inside a function that allows you to pass in one string for the category of thing, and another string for your favorite. When you call the function, it should look like this:\
  `printFavorite(categoryOfThing: "food", favorite: "cheese")`
 */
+func myFivorite (categoyOfThing:String,favorite:String)
+{
+    print ( " My favorite \( categoyOfThing ) is \(favorite )")
+}
+
+myFivorite(categoyOfThing:"food",favorite:"Cheese")
 
 
 //: You’ve learned how to pass information in to a function. Now learn how to get information out.

@@ -18,3 +18,8 @@
 //: Wouldn’t it be useful to pass in more than one value? Find out how.
 //:
 //: [Previous](@previous)  |  page 3 of 17  |  [Next: Passing More Values](@next)
+func food () {
+    let favoriteFood = "Cheese"
+    print(" My favorite food Is " + favoriteFood)
+}
+food()

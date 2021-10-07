@@ -34,3 +34,10 @@ printHello(to: "Johnny")
  
 [Previous](@previous)  |  page 11 of 17  |  [Next: The Argument Without a Name](@next)
  */
+
+func printFavoriteDrink(to NameDrink: String) {
+    print("My Favorite drink Is " + NameDrink)
+}
+
+printFavoriteDrink(to: "Pebsi")
+printFavoriteDrink(to: "SevenUp")
