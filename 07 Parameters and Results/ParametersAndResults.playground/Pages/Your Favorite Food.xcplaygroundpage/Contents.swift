@@ -12,6 +12,12 @@
  _Hint: You can go back to the previous page to check on how to define a function with a parameter._
 */
 
+func food(favoriteFood: String) {
+    print("My favorite food is " + favoriteFood)
+}
+
+food(favoriteFood : "cheese")
+
 
 
 

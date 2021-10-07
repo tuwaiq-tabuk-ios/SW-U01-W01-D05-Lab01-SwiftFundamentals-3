@@ -16,8 +16,9 @@
  
  To solve this problem, you can use a different name for the parameter inside the function:
  */
-func printHello(to name: String) {
-    print("Hello " + name)
+
+func printHello(to  name: String) {
+    print("Hello" + name)
 }
 printHello(to: "Chris")
 printHello(to: "Johnny")
@@ -34,3 +35,8 @@ printHello(to: "Johnny")
  
 [Previous](@previous)  |  page 11 of 17  |  [Next: The Argument Without a Name](@next)
  */
+func printHello1(for  FirstName: String) {
+    print("Hello " + FirstName )
+}
+printHello1(for : "MONA")
+
