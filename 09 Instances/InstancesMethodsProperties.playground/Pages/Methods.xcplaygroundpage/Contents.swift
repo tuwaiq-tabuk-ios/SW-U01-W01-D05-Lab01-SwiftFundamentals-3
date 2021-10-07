@@ -35,3 +35,5 @@ alternateIntroduction.hasPrefix("It wasn't")
 
 [Previous](@previous)  |  page 4 of 17  |  [Next: Methods and Type Safety](@next)
 */
+introduction.hasPrefix("Somthing")
+alternateIntroduction.hasPrefix("Once")

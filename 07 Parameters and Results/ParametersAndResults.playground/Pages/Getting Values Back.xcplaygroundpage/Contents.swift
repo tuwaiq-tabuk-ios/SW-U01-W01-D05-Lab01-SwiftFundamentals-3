@@ -33,3 +33,8 @@ let namedVideoMessage = "Hey Micah! \(videoMessage)"
 //:
 //: [Previous](@previous)  |  page 6 of 17  |  [Next: Giving Values Back](@next)
 //add your funtion below:
+func Sum(num1:Int, num2:Int){
+    print("The Sum of Two numbers is: \(num1+num2)")
+    
+}
+Sum(num1: 10, num2: 5)
