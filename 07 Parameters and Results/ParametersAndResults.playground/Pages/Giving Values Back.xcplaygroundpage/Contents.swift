@@ -26,3 +26,26 @@
 //: Next, learn when to use parameters and return values and when not to.
 //:
 //: [Previous](@previous)  |  page 7 of 17  |  [Next: Kinds of Function](@next)
+//Exercise1
+
+func MakeFivorite (categoryOfThong:String,favorite:String)->String{
+    
+    return "My Fivorite \(categoryOfThong) is \(favorite)"
+}
+
+let function1 = MakeFivorite(categoryOfThong: "food", favorite: "cheese")
+
+//Experiment1
+
+func Fivoritesung (NameOFsong:String,SingerName:String)->String{
+    
+    return "My Fivorite Song is \(NameOFsong),And the singer's name is \(SingerName)"
+}
+
+let function2 = Fivoritesung(NameOFsong: "Diamonds", SingerName: "Rihanna")
+
+
+//Exercise2
+
+
+print (function1 , function2)

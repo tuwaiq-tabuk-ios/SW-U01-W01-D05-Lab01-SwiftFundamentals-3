@@ -24,3 +24,9 @@ hello(firstName: "John", lastName: "Snow")
 //: Get some more practice with this sort of function on the next page.
 //:
 //: [Previous](@previous)  |  page 4 of 17  |  [Next: Other Favorite Things](@next)
+func hello2 (firstName: String, lastName: String) {
+    print("Hello \(firstName) \(lastName)")
+}
+hello2(firstName: "Rashed", lastName: "Almajed")
+hello2(firstName: "Haifa", lastName: "Wahbi ")
+hello2(firstName: "Nancy", lastName: "Ajram")
