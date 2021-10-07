@@ -12,20 +12,38 @@ func impossibleBeliefsCount(pigsFlying: Int, frogsBecomingPrinces: Int, multiple
 //: - callout(Exercise):Update the `impossibleBeliefsCount` function so that instead of printing the value, it returns it as an `Int`.
 //:
 //: `impossibleThingsPhrase` creates a phrase using string interpolation:
-func impossibleThingsPhrase() -> String {
+/*func impossibleThingsPhrase() -> String {
     let numberOfImpossibleThings = 10
     let meal = "teatime"
     return "Why, I've believed as many as \(numberOfImpossibleThings) before \(meal)"
 }
+ */
 //: - callout(Exercise): Update the `impossibleThingsPhrase` function so that, instead of using its two internal constants, it takes two arguments: `numberOfImpossibleThings` as an `Int` and `meal` as a `String`.
 //:
 //: Now you have two functions that take parameters and return values.
 //: - callout(Exercise): Call `impossibleBeliefsCount` and store the result in a constant.\
 //:Call `impossibleThingsPhrase`, passing in the result of `impossibleBeliefsCount` as one of the arguments.
+print("\n\n- - - - - Exercice1 - - - - -")
+
+func impossibleBeliefsCount1(pigsFlying: Int, frogsBecomingPrinces: Int, multipleLightningStrikes: Int) -> Int {
+    let total = pigsFlying + frogsBecomingPrinces + multipleLightningStrikes
+    return total
+}
 
 
+print("\n\n- - - - - Exercice2 - - - - -")
 
 
+func impossibleThingsPhrase1(numberOfImpossibleThings: Int ,
+                             meal: String ) -> String {
+//    let numberOfImpossibleThings = 10
+//    let meal = "teatime"
+    return "Why, I've believed as many as \(numberOfImpossibleThings) before \(meal)"
+}
 
+print("\n\n- - - - - Exercice3 - - - - -")
 
+let result = impossibleBeliefsCount1 (pigsFlying: 5, frogsBecomingPrinces: 6, multipleLightningStrikes: 10)
+let impssiblePhrase = impossibleThingsPhrase1(numberOfImpossibleThings: result, meal: "teatime")
+print(impssiblePhrase)
 //: [Previous](@previous)  |  page 15 of 17  |  [Next: Exercise: Argument Label](@next)

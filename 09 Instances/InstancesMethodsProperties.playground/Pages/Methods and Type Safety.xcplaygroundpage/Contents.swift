@@ -20,3 +20,4 @@ let number = 42
 
 [Previous](@previous)  |  page 5 of 17  |  [Next: Properties](@next)
 */
+//number.hasPrefix("It was")

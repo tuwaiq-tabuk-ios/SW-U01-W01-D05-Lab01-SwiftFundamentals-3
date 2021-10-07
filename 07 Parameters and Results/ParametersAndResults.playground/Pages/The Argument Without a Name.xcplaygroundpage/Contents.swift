@@ -12,6 +12,8 @@ The parameter in `print` does not have an argument label. To declare a parameter
 
 For example:
 */
+
+import Foundation
 func printHelloTo(_ name: String) {
     print("Hello " + name)
 }
@@ -24,3 +26,7 @@ printHelloTo("Hiro")
 //: Now it’s time to summarize what you’ve learned.
 //:
 //: [Previous](@previous)  |  page 12 of 17  |  [Next: Wrapup](@next)
+print("\n\n- - - - - Exercice1 - - - - -")
+printHelloTo("Rawabi")
+printHelloTo("Ail")
+
