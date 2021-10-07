@@ -17,11 +17,18 @@
 
 
 //: - experiment: Call your new function a few times with some different categories, assigning each result to a different constant. Why not try categories like food, movie, school subject or band?
-
+func makeFavorite(categoryOfThing:String, favorite: String)->String{
+    return "My favorite \(categoryOfThing)is \(favorite)"
+    
+}
+makeFavorite(categoryOfThing:"food", favorite:"cheese")
 
 //: - callout(Exercise): Now that you have your results, you can use string interpolation to combine them into a self-introduction. Yours might look something like this:\
 //: `"Hello, my name is Euna. \(favoriteFood) \(favoriteVideoStar) ..."`
-
+func myFavorite(favoriteFood: String, favoriteVideoStar :String ,favoriteMovie:String,FavoriteProgrammingLanguage:String)->String{
+    return "Hello , my name is rasha. my favorites list favorite food \(favoriteFood),favorite video star \(favoriteVideoStar), favorite movie \(favoriteMovie), FavoriteProgrammingLanguage \(FavoriteProgrammingLanguage)"
+}
+myFavorite(favoriteFood:"pasta", favoriteVideoStar :"Angeline jolie" ,favoriteMovie:"rocky",FavoriteProgrammingLanguage:"Swift")
 
 //: Next, learn when to use parameters and return values and when not to.
 //:

@@ -24,3 +24,5 @@ hello(firstName: "John", lastName: "Snow")
 //: Get some more practice with this sort of function on the next page.
 //:
 //: [Previous](@previous)  |  page 4 of 17  |  [Next: Other Favorite Things](@next)
+hello(firstName: "taylor", lastName:"hill")
+hello(firstName: "kendall", lastName: "jenner")

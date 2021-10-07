@@ -25,3 +25,11 @@ let finalScore = score(reds: 5, greens: 3, golds: 3)
 
 
 //: [Previous](@previous)  |  page 16 of 17  |  [Next: Exercise: No Argument Label](@next)
+func score(withReds reds: Int, greens: Int, golds: Int) -> Int {
+    let withReds = 5
+    let greens = 3
+    let golds = 3
+    return withReds + greens + golds
+
+}
+score(withReds : 5, greens: 3, golds: 3)

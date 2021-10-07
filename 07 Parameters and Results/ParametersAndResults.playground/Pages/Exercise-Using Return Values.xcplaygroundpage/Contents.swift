@@ -29,3 +29,9 @@ func impossibleThingsPhrase() -> String {
 
 
 //: [Previous](@previous)  |  page 15 of 17  |  [Next: Exercise: Argument Label](@next)
+func impossibleThingsPhrase(of numberOfImpossibleThings:Int , of meal:String) -> String{
+    
+  let statment = "Why, I've believed as many as \(numberOfImpossibleThings) before \(meal)"
+    return statment
+}
+ impossibleThingsPhrase(of:10 , of:"bigmac")

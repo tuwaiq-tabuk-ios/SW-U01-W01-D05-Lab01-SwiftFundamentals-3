@@ -33,3 +33,12 @@ let namedVideoMessage = "Hey Micah! \(videoMessage)"
 //:
 //: [Previous](@previous)  |  page 6 of 17  |  [Next: Giving Values Back](@next)
 //add your funtion below:
+func spaceAvailableMessage1 (eachVideoDuration: Int , numberOfVideos: Int)-> String{
+let desiredVideoDuration = 40
+let holidayVideoCount = 100
+
+let videoMessage = spaceAvailableMessage(eachVideoDuration: desiredVideoDuration, numberOfVideos: holidayVideoCount)
+    let namedVideoMessage = "Hey Micah! \(videoMessage)"
+    return namedVideoMessage
+}
+spaceAvailableMessage1(eachVideoDuration: 20 , numberOfVideos: 50)
