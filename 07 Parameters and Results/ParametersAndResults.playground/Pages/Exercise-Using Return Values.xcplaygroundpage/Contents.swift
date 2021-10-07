@@ -22,9 +22,12 @@ func impossibleThingsPhrase() -> String {
 //: Now you have two functions that take parameters and return values.
 //: - callout(Exercise): Call `impossibleBeliefsCount` and store the result in a constant.\
 //:Call `impossibleThingsPhrase`, passing in the result of `impossibleBeliefsCount` as one of the arguments.
-
-
-
+func impossibleThingsPhrase(of numberOfImpossibleThings:Int , of meal:String) -> String{
+    
+  let statment = "Why, I've believed as many as \(numberOfImpossibleThings) before \(meal)"
+    return statment
+}
+ impossibleThingsPhrase(of:10 , of:"bigmac")
 
 
 
