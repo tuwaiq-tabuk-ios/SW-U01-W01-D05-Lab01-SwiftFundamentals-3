@@ -18,7 +18,11 @@ func printHelloTo(_ name: String) {
 printHelloTo("Maya")
 printHelloTo("Hiro")
 //: - experiment: Call the `printHelloTo` function a few more times. Notice that the autocompletion popup shows the parameter name, not the argument label.
-
+func printHelloTo1(_ name: String) {
+    print("Hello " + name)
+}
+printHelloTo("hajer")
+printHelloTo("nora")
 
 
 //: Now it’s time to summarize what you’ve learned.
