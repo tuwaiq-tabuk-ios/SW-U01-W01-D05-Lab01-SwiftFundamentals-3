@@ -21,4 +21,13 @@ example.hasPrefix("It was")
 [Previous](@previous)  |  page 10 of 17  |  [Next: Read the Fine Manual](@next)
 */
 
+/*
+ Where does it tell you useful things?
 
+ 
+ 
+ Where does it not give you any help at all?
+ There is a quick bug fix
+ 
+ 
+ */

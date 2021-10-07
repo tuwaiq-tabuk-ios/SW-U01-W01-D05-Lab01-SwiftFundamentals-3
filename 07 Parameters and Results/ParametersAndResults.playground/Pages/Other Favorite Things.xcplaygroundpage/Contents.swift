@@ -13,7 +13,11 @@
  `printFavorite(categoryOfThing: "food", favorite: "cheese")`
 */
 
-
 //: You’ve learned how to pass information in to a function. Now learn how to get information out.
 //:
 //: [Previous](@previous)  |  page 5 of 17  |  [Next: Getting Values Back](@next)
+func Liket(categoryOfThing: String, favorite: String) {
+    print("My favorite \(categoryOfThing) is \(favorite)")
+}
+  
+Liket(categoryOfThing: "food", favorite: "cheese")

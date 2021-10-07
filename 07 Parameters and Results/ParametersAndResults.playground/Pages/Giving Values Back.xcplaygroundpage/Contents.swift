@@ -26,3 +26,19 @@
 //: Next, learn when to use parameters and return values and when not to.
 //:
 //: [Previous](@previous)  |  page 7 of 17  |  [Next: Kinds of Function](@next)
+
+
+print("------ Exercise 1 ------")
+
+func makeFavorite(categoryOfThing: String,
+                  favorite: String) -> String {
+    
+    
+    return "My favorite \(categoryOfThing) is \(favorite)"
+}
+
+let sentence = makeFavorite(categoryOfThing: "food", favorite: "cheese")
+
+print(sentence)
+
+
