@@ -19,6 +19,7 @@ func listByAdding(item: String, toList: String) -> String {
 var list = "Milk"
 list = listByAdding(item:"Eggs", toList: list)
 list = listByAdding(item:"Bread", toList: list)
+print(list)
 //: Compare this to the way you were building lists before, with compound assignment:
 list += "\n" + "Rice"
 //: You’ll probably notice that the function is easier to read,. You no longer have to use `"\n"` to separate the items in the list. _Hiding complexity_ is one of the key benefits that using functions brings to your code.
