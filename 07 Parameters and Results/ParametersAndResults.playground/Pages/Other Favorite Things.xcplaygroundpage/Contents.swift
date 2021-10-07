@@ -13,6 +13,12 @@
  `printFavorite(categoryOfThing: "food", favorite: "cheese")`
 */
 
+func favoriteFood(category: String,food:String) {
+    print("My favorite \(category) is \(food)")
+}
+
+favoriteFood(category: "food", food: "cheese")
+
 
 //: You’ve learned how to pass information in to a function. Now learn how to get information out.
 //:
