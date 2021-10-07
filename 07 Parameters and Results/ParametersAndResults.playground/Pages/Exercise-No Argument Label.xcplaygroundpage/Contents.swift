@@ -21,5 +21,14 @@ holler(phrase: "I'm not sure that was necessary.")
  
  _THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE._
  */
- 
+func holler2( _ phrase: String) -> String {
+    return "⚡️\(phrase)!!⚡️"
+}
+
+holler2( "Thank you, this is very nice.")
+holler2("I'm not sure that was necessary.")
 //: [Previous](@previous)  |  page 17 of 17
+
+
+//holler(phrase: "Thank you, this is very nice.")
+//holler(phrase: "I'm not sure that was necessary.")
