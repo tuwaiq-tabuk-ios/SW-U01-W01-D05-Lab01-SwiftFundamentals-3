@@ -17,3 +17,11 @@
 //: You’ve learned how to pass information in to a function. Now learn how to get information out.
 //:
 //: [Previous](@previous)  |  page 5 of 17  |  [Next: Getting Values Back](@next)
+func printFavorite1 (categoryOfThing1: String, favorite1: String){
+print("My favorite \(categoryOfThing1) is \(favorite1)")
+}
+
+printFavorite1 (categoryOfThing1 : "song", favorite1: "Fight Song")
+
+
+
