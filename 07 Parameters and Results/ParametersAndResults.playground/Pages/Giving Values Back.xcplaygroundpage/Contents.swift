@@ -13,7 +13,11 @@
  \
  Remember that `->` is used to say that a function returns a value.
 */
-
+func makeFavorite(categoryOfThing:String, favorite: String)->String{
+    return "My favorite \(categoryOfThing)is \(favorite)"
+    
+}
+makeFavorite(categoryOfThing:"food", favorite:"cheese")
 
 
 //: - experiment: Call your new function a few times with some different categories, assigning each result to a different constant. Why not try categories like food, movie, school subject or band?
@@ -21,8 +25,12 @@
 
 //: - callout(Exercise): Now that you have your results, you can use string interpolation to combine them into a self-introduction. Yours might look something like this:\
 //: `"Hello, my name is Euna. \(favoriteFood) \(favoriteVideoStar) ..."`
-
+func myFavorite(favoriteFood: String, favoriteVideoStar :String ,favoriteMovie:String,FavoriteProgrammingLanguage:String)->String{
+    return "Hello , my name is Bushra. my favorites list favorite food \(favoriteFood),favorite video star \(favoriteVideoStar), favorite movie \(favoriteMovie), FavoriteProgrammingLanguage \(FavoriteProgrammingLanguage)"
+}
+myFavorite(favoriteFood:"pasta", favoriteVideoStar :"Angeline jolie" ,favoriteMovie:"rocky",FavoriteProgrammingLanguage:"Swift")
 
 //: Next, learn when to use parameters and return values and when not to.
 //:
 //: [Previous](@previous)  |  page 7 of 17  |  [Next: Kinds of Function](@next)
+// up 

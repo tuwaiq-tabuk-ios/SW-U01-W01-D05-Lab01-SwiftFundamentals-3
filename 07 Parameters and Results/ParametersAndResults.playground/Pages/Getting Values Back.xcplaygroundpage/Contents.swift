@@ -1,18 +1,4 @@
-/*:
- ## Getting Values Back
- 
- In addition to using values that you’ve passed in, functions can do their work and hand you back a value as a result.
- 
- Passing a value back when a function is finished is called _returning_ a value. To declare a function that returns a value, you have to add two things to your code.
- 
- After your list of parameters, add a text arrow `->` and the type of value to be returned. For example:
- `-> String` means the function returns a `String`.
- 
- Then you have to end the body of the function with a return statement that gives that type of value back.
- 
- Here’s a function that takes some numbers, does some work, and returns a string:
-*/
-func spaceAvailableMessage(eachVideoDuration: Int, numberOfVideos: Int) -> String {
+ func spaceAvailableMessage(eachVideoDuration: Int, numberOfVideos: Int) -> String {
     let currentSpace = 10000
     let megabytesPerVideoSecond = 3
     let spaceAvailable = currentSpace - eachVideoDuration * numberOfVideos * megabytesPerVideoSecond
