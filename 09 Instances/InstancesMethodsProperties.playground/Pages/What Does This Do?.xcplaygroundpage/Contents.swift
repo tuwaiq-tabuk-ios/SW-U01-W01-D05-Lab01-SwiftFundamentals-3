@@ -9,14 +9,4 @@
  
  - callout(Exercise): Option-click the values and methods below to view the documentation in a popup.
 */
-let example = "It was the best of times"
-example.hasPrefix("It was")
-example.hasSuffix("times")
-example.isEmpty
 
-
-/*:
- Next see another way to see help while looking at code.
- 
-[Previous](@previous)  |  page 9 of 17  |  [Next: Quick Help](@next)
-*/

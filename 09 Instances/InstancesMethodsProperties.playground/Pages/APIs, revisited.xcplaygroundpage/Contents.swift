@@ -21,5 +21,8 @@ example
  
 [Previous](@previous)  |  page 8 of 17  |  [Next: What Does This Do?](@next)
 */
+// Exercise 1
+ let example2 = "It was the best of times"
 
+ example2.count
 

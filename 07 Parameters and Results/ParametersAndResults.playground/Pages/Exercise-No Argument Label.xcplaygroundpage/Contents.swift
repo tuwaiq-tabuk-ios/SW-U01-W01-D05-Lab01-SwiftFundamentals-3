@@ -23,3 +23,9 @@ holler(phrase: "I'm not sure that was necessary.")
  */
  
 //: [Previous](@previous)  |  page 17 of 17
+func holler2(_ text: String) -> String {
+     return "⚡️\(text)!!⚡️"
+ }
+
+ holler2("Thank you, this is very nice.")
+ holler2("I'm not sure that was necessary.")

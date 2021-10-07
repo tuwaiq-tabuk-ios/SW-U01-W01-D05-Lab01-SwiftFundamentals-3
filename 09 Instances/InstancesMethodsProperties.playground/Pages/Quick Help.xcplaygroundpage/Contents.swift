@@ -21,4 +21,12 @@ example.hasPrefix("It was")
 [Previous](@previous)  |  page 10 of 17  |  [Next: Read the Fine Manual](@next)
 */
 
+/*
+  Where does it tell you useful things?
+     if i clicked the name of constant or the property of the constant
+  
+  Where does it not give you any help at all?
+     if i clicked any where exept the name of constant or the property of the constant
+  
+  */
 
