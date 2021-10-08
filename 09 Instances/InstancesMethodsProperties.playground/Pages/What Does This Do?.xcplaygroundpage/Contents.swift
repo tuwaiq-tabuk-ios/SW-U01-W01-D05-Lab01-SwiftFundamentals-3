@@ -14,6 +14,12 @@ example.hasPrefix("It was")
 example.hasSuffix("times")
 example.isEmpty
 
+let example2 = "It was the best of times"
+example2.hasPrefix("It was")
+example2.hasSuffix("times")
+example2.isEmpty
+
+
 
 /*:
  Next see another way to see help while looking at code.

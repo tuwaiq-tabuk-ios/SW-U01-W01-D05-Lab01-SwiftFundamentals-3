@@ -8,12 +8,17 @@
  let favorite = "cheese"
  print("My favorite \(categoryOfThing) is \(favorite)")
  ```
-
+ 
  - callout(Exercise): Put the print statement above inside a function that allows you to pass in one string for the category of thing, and another string for your favorite. When you call the function, it should look like this:\
  `printFavorite(categoryOfThing: "food", favorite: "cheese")`
-*/
+ */
 
+print("\n\n- - - - - - Exercice 1 - - - - - - ")
+func printFavorite(categoryOfThing:String ,
+                   favorite:String) {
+  let things = "My favorite \(categoryOfThing) is \(favorite) "
+  print(things)
+}
 
-//: You’ve learned how to pass information in to a function. Now learn how to get information out.
-//:
-//: [Previous](@previous)  |  page 5 of 17  |  [Next: Getting Values Back](@next)
+printFavorite(categoryOfThing:"perfume" ,favorite:"Dior")
+

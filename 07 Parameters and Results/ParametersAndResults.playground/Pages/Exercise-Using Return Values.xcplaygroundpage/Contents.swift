@@ -22,6 +22,15 @@ func impossibleThingsPhrase() -> String {
 //: Now you have two functions that take parameters and return values.
 //: - callout(Exercise): Call `impossibleBeliefsCount` and store the result in a constant.\
 //:Call `impossibleThingsPhrase`, passing in the result of `impossibleBeliefsCount` as one of the arguments.
+print("\n\n- - - - - - Exercice 1 - - - - - - ")
+
+func impossibleThingsPhrase(numberOfImpossibleThings: Int, meal:String)-> String {
+  return "Why,I've believe as many as \(numberOfImpossibleThings) before\(meal)"
+}
+
+
+let result: () = impossibleBeliefsCount(pigsFlying:5,frogsBecomingPrinces:6 ,multipleLightningStrikes:10)
+
 
 
 

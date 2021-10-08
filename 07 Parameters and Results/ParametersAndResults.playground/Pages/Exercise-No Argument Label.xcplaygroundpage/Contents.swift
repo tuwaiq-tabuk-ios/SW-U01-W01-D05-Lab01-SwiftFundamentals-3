@@ -5,12 +5,13 @@
  
  The function below has an unnecessary argument label when you call it.
 */
-func holler(phrase: String) -> String {
+func holler(to phrase: String) -> String {
     return "⚡️\(phrase)!!⚡️"
 }
 
-holler(phrase: "Thank you, this is very nice.")
-holler(phrase: "I'm not sure that was necessary.")
+holler(to : "Thank you, this is very nice.")
+holler(to: "I'm not sure that was necessary.")
+//I added argument label (to)
 /*:
  
  _Copyright © 2017 Apple Inc._

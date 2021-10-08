@@ -25,3 +25,10 @@ printHello(to: "Maya")
  
 [Previous](@previous)  |  page 10 of 17  |  [Next: Parameter Names and Argument Labels](@next)
 */
+print("\n\n- - - - - - Exercice 1 - - - - - - ")
+
+func getTheFirstLetter(of: String){
+  //print("Hello" + of)
+  print("Hello" + " " + of)
+}
+getTheFirstLetter(of: "Swift")
