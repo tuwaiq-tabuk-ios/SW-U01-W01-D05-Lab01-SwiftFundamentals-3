@@ -10,8 +10,8 @@
 */
 
 
-
-
-
-
 //: [Previous](@previous)  |  page 14 of 17  |  [Next: Exercise: Using Return Values](@next)
+func openingLine(verb:String, noun: String) -> String{
+  return "verb \(verb) noon  \(noun)"
+}
+let line = openingLine(verb: "hgh", noun: "hh")

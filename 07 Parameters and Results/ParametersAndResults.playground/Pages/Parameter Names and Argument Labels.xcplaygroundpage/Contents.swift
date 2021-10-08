@@ -34,3 +34,8 @@ printHello(to: "Johnny")
  
 [Previous](@previous)  |  page 11 of 17  |  [Next: The Argument Without a Name](@next)
  */
+func printname(of food: String) {
+    print("Hello " + food)
+}
+printname(of: "chese")
+printname(of: "donat")

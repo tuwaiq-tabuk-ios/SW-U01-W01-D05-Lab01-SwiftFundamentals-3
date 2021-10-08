@@ -23,6 +23,11 @@ func impossibleThingsPhrase() -> String {
 //: - callout(Exercise): Call `impossibleBeliefsCount` and store the result in a constant.\
 //:Call `impossibleThingsPhrase`, passing in the result of `impossibleBeliefsCount` as one of the arguments.
 
+func impossibleThingsPhrase(numberOfImpossibleThings:Int ,meal:String )->String{
+  let impossibleBeliefsCountnumber = numberOfImpossibleThings
+    let impossibleBeliefsCount = meal
+    return "numberOfImpossibleThings \(impossibleBeliefsCountnumber) eal \(impossibleBeliefsCount)"
+}
 
 
 
