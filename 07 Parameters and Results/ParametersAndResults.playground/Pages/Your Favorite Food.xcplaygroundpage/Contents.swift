@@ -11,7 +11,10 @@
  `printFavorite(food: "cheese")`\
  _Hint: You can go back to the previous page to check on how to define a function with a parameter._
 */
-
+func favoriteFood(food: String)  {
+    let food = "Cheese"
+    print("favoriteFood" + food)
+}
 
 
 

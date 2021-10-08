@@ -15,9 +15,7 @@ Instead of writing multiple specific functions to say hello to every possible na
  
  To do that, the declaration is different. Inside the parentheses you add a name and a type annotation in the same format as when you declare a variable or constant with a type annotation.
  */
-func hello(name: String) {
-    print("Hello " + name)
-}
+
 /*:
  Inside the body of the function, `name` can be used just like the constant in `helloJohnny()` above.
  
@@ -29,8 +27,11 @@ hello(name: "Maria")
 hello(name: "Vikram")
 
 //: - experiment: Call the function a few more times, passing in different arguments. Notice that the autocompletion pop up tells you that the function has a `String` parameter called `name`.
+func hello(name: String) {
+ let name = "Maha"
 
-
+    print("Hello" + name)
+}
 
 
 //: Next get some practice by making your own function that takes an argument.

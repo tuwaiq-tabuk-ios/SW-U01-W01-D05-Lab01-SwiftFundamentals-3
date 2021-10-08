@@ -28,7 +28,6 @@ let holidayVideoCount = 100
 let videoMessage = spaceAvailableMessage(eachVideoDuration: desiredVideoDuration, numberOfVideos: holidayVideoCount)
 let namedVideoMessage = "Hey Micah! \(videoMessage)"
 
-
 //: Try making your own function that returns a value.
 //:
 //: [Previous](@previous)  |  page 6 of 17  |  [Next: Giving Values Back](@next)
