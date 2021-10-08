@@ -17,11 +17,18 @@
 
 
 //: - experiment: Call your new function a few times with some different categories, assigning each result to a different constant. Why not try categories like food, movie, school subject or band?
+func favoriteThing(categoryOfThing: String, favorite: String) -> String {
+    let sentence = "My favorite \(categoryOfThing) is \(favorite)"
+return sentence
+}
+    
+    let sentence = favoriteThing(categoryOfThing: "band", favorite: "Strokes")
 
-
+    let band = favoriteThing(categoryOfThing: "band", favorite: "Strokes")
+    let movie = favoriteThing(categoryOfThing: "movie", favorite: "Intrestellar")
 //: - callout(Exercise): Now that you have your results, you can use string interpolation to combine them into a self-introduction. Yours might look something like this:\
 //: `"Hello, my name is Euna. \(favoriteFood) \(favoriteVideoStar) ..."`
-
+print("Hello, my name is Maha. \(band), \(movie)")
 
 //: Next, learn when to use parameters and return values and when not to.
 //:
