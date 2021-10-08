@@ -17,6 +17,7 @@ let alternateIntroduction = "Once upon a time"
  
  Instance methods are called by using a period (`.`) after the instance, followed by the method call:
 */
+//has to ask t or f
 introduction.hasPrefix("It was")
 
 introduction.hasPrefix("It wasn't")
