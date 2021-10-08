@@ -26,3 +26,44 @@
 //: Next, learn when to use parameters and return values and when not to.
 //:
 //: [Previous](@previous)  |  page 7 of 17  |  [Next: Kinds of Function](@next)
+print("\n\n- - - - - - Exercice 1 - - - - - - ")
+  func myFavoriteFood(categoryOfThing:String,
+              favorite: String)->String{
+     return "My favorite \(categoryOfThing) is \(favorite)"
+  
+   }
+    let result1 = myFavoriteFood (categoryOfThing: "food", favorite: "cheese")
+    print(result1)
+
+
+print("\n\n- - - - - - Exercice 2 - - - - - - ")
+  func myFavoriteMovie (categoryOfThing:String,
+                      favorite: String)->String{
+       return "My favorite \(categoryOfThing) is \(favorite)"
+  
+   }
+    let result2 = myFavoriteMovie(categoryOfThing: "movie", favorite: "VENOM")
+    print(result2)
+
+
+print("\n\n- - - - - - Exercice 3 - - - - - - ")
+ func myFavoriteSchoolSubject(categoryOfThing:String,
+                           favorite: String)->String{
+    return "My favorite \(categoryOfThing) is \(favorite)"
+ }
+  let result3 = myFavoriteSchoolSubject(categoryOfThing: "Subject", favorite: "mathematics")
+print (result3)
+
+print("\n\n- - - - - - Exercice 4 - - - - - - ")
+  func myFavoriteBand (categoryOfThing:String,
+                             favorite: String)->String{
+      return "My favorite \(categoryOfThing) is \(favorite)"
+   }
+    let result4 = myFavoriteBand(categoryOfThing: "Band", favorite: "BTS")
+print(result4)
+
+
+
+print("\n\n- - - - - - Exercice 5 - - - - - - ")
+let finalResult = "Hello, my name is Ameera. \(result1),\(result2),\(result3) and \(result4)"
+print(finalResult)

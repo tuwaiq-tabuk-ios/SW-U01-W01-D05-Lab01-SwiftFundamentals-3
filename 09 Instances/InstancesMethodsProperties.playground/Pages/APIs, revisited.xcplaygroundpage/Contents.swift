@@ -14,8 +14,9 @@ The instance methods and properties of a `String` are the API of the `String` ty
 */
 let example = "It was the best of times"
 // Practice here by typing . after "example":
-example
-
+example.isEmpty
+example.hasPrefix
+example.hasSuffix
 /*: 
  APIs also come with documentation to help you learn about them and see how they should be used.
  

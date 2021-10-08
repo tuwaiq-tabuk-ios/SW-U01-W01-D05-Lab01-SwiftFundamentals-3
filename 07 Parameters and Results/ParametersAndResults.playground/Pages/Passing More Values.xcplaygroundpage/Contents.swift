@@ -2,7 +2,7 @@
  ## Passing More Values
  
  What if you wanted your function to take more than one value? No problem. Just list the parameters inside the parentheses with a comma between them:
-*/
+ */
 func hello(firstName: String, lastName: String) {
     print("Hello \(firstName) \(lastName)")
 }
@@ -11,9 +11,9 @@ func hello(firstName: String, lastName: String) {
  
  `firstName: String,`\
  `lastName: String`
-
+ 
  Inside the function, `firstName` and `lastName` are both available as constant strings. You can call the function like this:
-*/
+ */
 hello(firstName: "Johnny", lastName: "Appleseed")
 hello(firstName: "John", lastName: "Snow")
 //: - Experiment: Call the function a few more times with the names of your favorite celebrities. Note how autocompletion tells you about both parameters and how you can use the Tab key to move to the next argument.
@@ -24,3 +24,34 @@ hello(firstName: "John", lastName: "Snow")
 //: Get some more practice with this sort of function on the next page.
 //:
 //: [Previous](@previous)  |  page 4 of 17  |  [Next: Other Favorite Things](@next)
+
+print("\n\n- - - - - - Exercice 1 - - - - - - ")
+
+func hello1(firstNameOfCelebrit: String , lastNameOfCelebrit: String) {
+    print(firstNameOfCelebrit + " " + lastNameOfCelebrit )
+}
+
+hello1(firstNameOfCelebrit: "Assala",lastNameOfCelebrit: "Nasry")
+hello1(firstNameOfCelebrit: "Mohhmed",lastNameOfCelebrit: "Abdo")
+
+
+func giveYourNameAndAge(firstName: String,
+                        lastName: String,
+                        age: Int) -> String {
+    
+    let result = "\(firstName) \(lastName) \(age)"
+    print(result)
+    return result
+}
+
+giveYourNameAndAge(firstName: "Amira",
+                   lastName: "Alhaweti",
+                   age: 24)
+
+//print(nameAndAge)
+
+////print(giveYourNameAndAge(firstName: "Amira",
+//                         lastName: "Alhaweti",
+//                         age: 24))
+
+

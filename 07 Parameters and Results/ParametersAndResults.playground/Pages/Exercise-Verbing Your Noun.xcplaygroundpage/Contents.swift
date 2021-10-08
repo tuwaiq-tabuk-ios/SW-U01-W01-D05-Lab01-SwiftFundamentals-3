@@ -10,8 +10,11 @@
 */
 
 
+func openingLine(verb: String, noun: String)->String {
+  return " \(verb),\(verb),\(verb) and \(noun)"
+}
 
-
-
+let line = openingLine(verb: "Row", noun: "Boat")
+  print(line)
 
 //: [Previous](@previous)  |  page 14 of 17  |  [Next: Exercise: Using Return Values](@next)

@@ -13,8 +13,15 @@
 */
 
 
-
-
 //: Wouldn’t it be useful to pass in more than one value? Find out how.
 //:
 //: [Previous](@previous)  |  page 3 of 17  |  [Next: Passing More Values](@next)
+print("\n\n- - - - - - Exercice 1 - - - - - - ")
+
+func myFavoriteFood (favoriteFood : String ){
+   print(" My favorite food is " + favoriteFood)
+}
+
+myFavoriteFood(favoriteFood: "cheese")
+
+

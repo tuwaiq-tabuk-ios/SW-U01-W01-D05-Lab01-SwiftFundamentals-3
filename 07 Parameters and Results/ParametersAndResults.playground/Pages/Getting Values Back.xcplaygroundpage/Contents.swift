@@ -32,4 +32,15 @@ let namedVideoMessage = "Hey Micah! \(videoMessage)"
 //: Try making your own function that returns a value.
 //:
 //: [Previous](@previous)  |  page 6 of 17  |  [Next: Giving Values Back](@next)
+
+print("\n\n- - - - - - Exercice 1 - - - - - - ")
 //add your funtion below:
+
+func calculations(firstNumber:Int,secondNumber:Int)->String{
+  let thirdNumber = 10
+  let result = firstNumber * (secondNumber + thirdNumber)
+
+   return " If you multiplication \(firstNumber) in the sum \(secondNumber) and \(thirdNumber) the output is \(result)"
+}
+
+  calculations(firstNumber: 40, secondNumber: 30)
