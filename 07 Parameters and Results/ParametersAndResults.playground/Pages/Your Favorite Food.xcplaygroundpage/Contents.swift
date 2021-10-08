@@ -11,9 +11,11 @@
  `printFavorite(food: "cheese")`\
  _Hint: You can go back to the previous page to check on how to define a function with a parameter._
 */
-
-
-
+func favoriteFood(favoriteFood: String) {
+    print("My favorite food is " + favoriteFood)
+    
+}
+favoriteFood(favoriteFood:"cheese")
 
 //: Wouldn’t it be useful to pass in more than one value? Find out how.
 //:

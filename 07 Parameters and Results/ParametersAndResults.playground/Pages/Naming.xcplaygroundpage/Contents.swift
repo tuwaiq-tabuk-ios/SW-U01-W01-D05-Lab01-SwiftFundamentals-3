@@ -25,3 +25,8 @@ printHello(to: "Maya")
  
 [Previous](@previous)  |  page 10 of 17  |  [Next: Parameter Names and Argument Labels](@next)
 */
+func getTheFirstLetter(of:String){
+    print (of.first)
+}
+getTheFirstLetter(of:"Swift")
+
