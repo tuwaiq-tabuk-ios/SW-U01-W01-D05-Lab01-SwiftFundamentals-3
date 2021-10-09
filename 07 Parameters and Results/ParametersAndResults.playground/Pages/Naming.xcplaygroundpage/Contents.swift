@@ -25,3 +25,8 @@ printHello(to: "Maya")
  
 [Previous](@previous)  |  page 10 of 17  |  [Next: Parameter Names and Argument Labels](@next)
 */
+func multiply( this:Int , by:Int) -> Int
+{
+    return this * by
+}
+multiply(this: 10, by: 10)

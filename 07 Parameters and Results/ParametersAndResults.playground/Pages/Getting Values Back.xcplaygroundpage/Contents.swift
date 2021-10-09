@@ -33,3 +33,12 @@ let namedVideoMessage = "Hey Micah! \(videoMessage)"
 //:
 //: [Previous](@previous)  |  page 6 of 17  |  [Next: Giving Values Back](@next)
 //add your funtion below:
+
+
+
+func sum(firstNumber : Int , secondNumber : Int) -> Int
+{
+    return firstNumber + secondNumber
+}
+
+sum(firstNumber: 20, secondNumber: 30)
