@@ -29,3 +29,20 @@ func impossibleThingsPhrase() -> String {
 
 
 //: [Previous](@previous)  |  page 15 of 17  |  [Next: Exercise: Argument Label](@next)
+//ex1
+func impossibleBeliefsCount1(pigsFlying: Int, frogsBecomingPrinces: Int, multipleLightningStrikes: Int) ->Int{
+    
+    let total = pigsFlying + frogsBecomingPrinces + multipleLightningStrikes
+    return total
+}
+impossibleBeliefsCount1(pigsFlying: 10, frogsBecomingPrinces: 31, multipleLightningStrikes: 9)
+
+
+//ex2
+func impossibleThingsPhrase2(numberOfImpossibleThings:Int, meal:String) -> String {
+    return "Why, I've believed as many as \(numberOfImpossibleThings) before \(meal)"
+}
+
+
+let count = impossibleBeliefsCount1(pigsFlying: 5, frogsBecomingPrinces: 2, multipleLightningStrikes: 5)
+let phrase = impossibleThingsPhrase2(numberOfImpossibleThings: 5, meal: "teatime")
