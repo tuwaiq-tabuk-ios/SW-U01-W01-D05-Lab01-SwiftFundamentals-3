@@ -26,3 +26,17 @@
 //: Next, learn when to use parameters and return values and when not to.
 //:
 //: [Previous](@previous)  |  page 7 of 17  |  [Next: Kinds of Function](@next)
+print ("----Exercise----")
+
+func category(categoryOfThings: String , favourite:  String) -> String {
+    
+    return "My favourite \(categoryOfThings) is \(favourite)"
+}
+
+ let sentence1 = category(categoryOfThings: "food", favourite: "Sayadia")
+
+let sentence2 = category(categoryOfThings: "food", favourite: "Sayadia")
+
+
+print("Hello, my name is Mohammed \(sentence1) \(sentence2)")
+

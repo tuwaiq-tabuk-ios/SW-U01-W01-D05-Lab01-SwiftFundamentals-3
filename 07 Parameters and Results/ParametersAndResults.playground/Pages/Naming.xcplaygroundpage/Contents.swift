@@ -25,3 +25,9 @@ printHello(to: "Maya")
  
 [Previous](@previous)  |  page 10 of 17  |  [Next: Parameter Names and Argument Labels](@next)
 */
+func sentence1(getTheFirstLetter: String) -> Character!{
+    return getTheFirstLetter.first
+}
+
+print(sentence1(getTheFirstLetter: "Swift")!)
+
