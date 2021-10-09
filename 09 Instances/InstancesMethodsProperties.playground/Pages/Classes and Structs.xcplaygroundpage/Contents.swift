@@ -27,3 +27,4 @@ For the remainder of the course, you’ll get more practice creating instances a
  
 [Previous](@previous)  |  page 12 of 17  |  [Next: Why Methods and Properties?](@next)
  */
+//good

@@ -33,3 +33,8 @@ let namedVideoMessage = "Hey Micah! \(videoMessage)"
 //:
 //: [Previous](@previous)  |  page 6 of 17  |  [Next: Giving Values Back](@next)
 //add your funtion below:
+func mohaamed (laseName:String,old:Int)->String{
+    
+    return "mohammad \(laseName) my age \(old)"
+}
+mohaamed(laseName: "alAtwi", old: 20 + 6)

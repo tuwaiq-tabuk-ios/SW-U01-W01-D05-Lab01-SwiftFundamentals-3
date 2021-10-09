@@ -14,12 +14,16 @@ The instance methods and properties of a `String` are the API of the `String` ty
 */
 let example = "It was the best of times"
 // Practice here by typing . after "example":
-example
 
+example.hasPrefix("it was")
+example.isEmpty
+example.hasSuffix("")
 /*: 
  APIs also come with documentation to help you learn about them and see how they should be used.
  
 [Previous](@previous)  |  page 8 of 17  |  [Next: What Does This Do?](@next)
 */
-
+example.hasPrefix("it was")
+example.isEmpty
+example.hasSuffix("")
 

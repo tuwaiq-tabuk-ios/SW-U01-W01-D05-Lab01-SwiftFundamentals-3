@@ -21,4 +21,4 @@ In programming, you can create and use different instances of a given type. Each
 Next, see some instances in code.
  
 page 1 of 17  |  [Next: Instances](@next)
- */
+*/
