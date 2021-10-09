@@ -25,3 +25,8 @@ printHello(to: "Maya")
  
 [Previous](@previous)  |  page 10 of 17  |  [Next: Parameter Names and Argument Labels](@next)
 */
+//" hi , my name is Bushra"
+func printhi(to: String) {
+    print ("hi " + to)
+}
+printhi(to: "Bushra")

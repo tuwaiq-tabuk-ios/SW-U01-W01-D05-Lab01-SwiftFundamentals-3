@@ -36,3 +36,8 @@ hello(name: "Vikram")
 //: Next get some practice by making your own function that takes an argument.
 //:
 //: [Previous](@previous)  |  page 2 of 17  |  [Next: Your Favorite Food](@next)
+func hello1(name: String) {
+    print("Hello " + name)
+}
+hello(name: "bushra")
+hello(name: "reem")

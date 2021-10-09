@@ -20,7 +20,10 @@ printHelloTo("Hiro")
 //: - experiment: Call the `printHelloTo` function a few more times. Notice that the autocompletion popup shows the parameter name, not the argument label.
 
 
+print("\n\n ------------ Exercise 1 ------------")
 
+printHelloTo("Bushra")
+printHelloTo(_ :"Hiro")
 //: Now it’s time to summarize what you’ve learned.
 //:
 //: [Previous](@previous)  |  page 12 of 17  |  [Next: Wrapup](@next)

@@ -21,5 +21,8 @@ example
  
 [Previous](@previous)  |  page 8 of 17  |  [Next: What Does This Do?](@next)
 */
+let example1 = "I like my time"
+// Practice here by typing . after "example":
+example1
 
 

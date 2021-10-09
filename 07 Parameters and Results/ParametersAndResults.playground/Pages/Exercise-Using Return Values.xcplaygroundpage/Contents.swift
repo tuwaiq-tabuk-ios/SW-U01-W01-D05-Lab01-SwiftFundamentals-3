@@ -5,6 +5,8 @@
 
  The function `impossibleBeliefsCount` takes several numbers of reported unlikely incidents. It then prints the number of impossible things to be believed:
 */
+
+import Darwin
 func impossibleBeliefsCount(pigsFlying: Int, frogsBecomingPrinces: Int, multipleLightningStrikes: Int) {
     let total = pigsFlying + frogsBecomingPrinces + multipleLightningStrikes
     print(total)
@@ -29,3 +31,41 @@ func impossibleThingsPhrase() -> String {
 
 
 //: [Previous](@previous)  |  page 15 of 17  |  [Next: Exercise: Argument Label](@next)
+
+
+print("\n\n-----exercise1-----")
+func impossibleBeliefsCount1(pigsFlying: Int, frogsBecomingPrinces: Int, multipleLightningStrikes: Int) -> Int {
+    let total = pigsFlying + frogsBecomingPrinces + multipleLightningStrikes
+   return(total)
+}
+let result1 = impossibleBeliefsCount1(pigsFlying: 6, frogsBecomingPrinces: 8, multipleLightningStrikes: 10)
+print(result1)
+
+
+
+print("\n\n-----exercise2-----")
+
+func impossibleThingsPhrase1(numberOfImpossibleThings: Int ,
+                             meal: String ) -> String {
+    let numberOfImpossibleThings = 10
+    let meal = "teatime"
+   
+    let massge = ("Why, I've believed as many as \(numberOfImpossibleThings) before \(meal)")
+    return massge
+}
+
+ let result2 = impossibleThingsPhrase1(numberOfImpossibleThings: 10 , meal: "teatime")
+print(result2)
+
+
+print("\n\n-----exercise3-----")
+
+
+func impossibleThingsPhrase(nuberOfImpossibleThings: Int, meal:String) -> String {
+    return "Why, I've believed as many as \(nuberOfImpossibleThings) before \(meal)"
+}
+
+let result: () = impossibleBeliefsCount(pigsFlying: 5, frogsBecomingPrinces: 6, multipleLightningStrikes: 10)
+let impssiblePhrase = impossibleThingsPhrase(nuberOfImpossibleThings: result1, meal: "teatime")
+
+print(impssiblePhrase)
