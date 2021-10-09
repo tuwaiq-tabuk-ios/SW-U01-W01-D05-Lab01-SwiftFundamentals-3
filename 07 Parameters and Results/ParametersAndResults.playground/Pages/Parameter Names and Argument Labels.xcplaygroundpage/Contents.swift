@@ -34,3 +34,8 @@ printHello(to: "Johnny")
  
 [Previous](@previous)  |  page 11 of 17  |  [Next: The Argument Without a Name](@next)
  */
+func printHello2(to name: String) {
+    print("Hello " + name)
+}
+printHello2(to: "rasha")
+printHello2(to: "hmd")

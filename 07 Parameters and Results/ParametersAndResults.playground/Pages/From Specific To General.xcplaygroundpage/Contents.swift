@@ -18,6 +18,8 @@ Instead of writing multiple specific functions to say hello to every possible na
 func hello(name: String) {
     print("Hello " + name)
 }
+hello(name: "azoz")
+
 /*:
  Inside the body of the function, `name` can be used just like the constant in `helloJohnny()` above.
  
@@ -29,8 +31,9 @@ hello(name: "Maria")
 hello(name: "Vikram")
 
 //: - experiment: Call the function a few more times, passing in different arguments. Notice that the autocompletion pop up tells you that the function has a `String` parameter called `name`.
+hello(name: "azooz")
 
-
+hello(name: "abdulaziz")
 
 
 //: Next get some practice by making your own function that takes an argument.

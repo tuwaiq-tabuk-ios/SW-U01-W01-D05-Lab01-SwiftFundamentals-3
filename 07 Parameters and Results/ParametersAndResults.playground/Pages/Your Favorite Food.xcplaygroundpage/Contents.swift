@@ -13,7 +13,10 @@
 */
 
 
-
+func favoriteFood(Name:String){
+    print("My favorite food is " + Name)
+}
+favoriteFood(Name: "fish")
 
 //: Wouldn’t it be useful to pass in more than one value? Find out how.
 //:
