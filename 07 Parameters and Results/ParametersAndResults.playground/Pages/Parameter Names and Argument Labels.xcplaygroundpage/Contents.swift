@@ -34,3 +34,7 @@ printHello(to: "Johnny")
  
 [Previous](@previous)  |  page 11 of 17  |  [Next: The Argument Without a Name](@next)
  */
+func printHi(to house: String) {
+    print("The White" + " " + house)
+}
+printHi(to: "house")

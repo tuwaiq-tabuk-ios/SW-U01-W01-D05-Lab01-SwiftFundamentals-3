@@ -37,3 +37,7 @@ magic
 
 [Previous](@previous)  |  page 7 of 17  |  [Next: APIs, Revisited](@next)
 */
+var magic1 = "Now you see it"
+magic1.removeAll()
+magic1.count
+

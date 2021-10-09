@@ -17,7 +17,11 @@ func hello(firstName: String, lastName: String) {
 hello(firstName: "Johnny", lastName: "Appleseed")
 hello(firstName: "John", lastName: "Snow")
 //: - Experiment: Call the function a few more times with the names of your favorite celebrities. Note how autocompletion tells you about both parameters and how you can use the Tab key to move to the next argument.
+func favouriteCelebrities(Celebritie1: String, Celebritie2: String, Celebritie3: String) {
+    print(Celebritie1 + " " + Celebritie2 + " " + Celebritie3)
+}
 
+favouriteCelebrities(Celebritie1: "George Carlin", Celebritie2: "Ingmar Bergman", Celebritie3:"Daniel De Lewis")
 
 
 
