@@ -29,10 +29,16 @@ hello(name: "Maria")
 hello(name: "Vikram")
 
 //: - experiment: Call the function a few more times, passing in different arguments. Notice that the autocompletion pop up tells you that the function has a `String` parameter called `name`.
-
-
+hello(name: "atheer")
+hello(name: "sara")
 
 
 //: Next get some practice by making your own function that takes an argument.
 //:
 //: [Previous](@previous)  |  page 2 of 17  |  [Next: Your Favorite Food](@next)
+
+func Goodmorning(name: String) {
+    print("goodmorning " + name)
+}
+Goodmorning(name: "atheer")
+Goodmorning(name: "sara")
