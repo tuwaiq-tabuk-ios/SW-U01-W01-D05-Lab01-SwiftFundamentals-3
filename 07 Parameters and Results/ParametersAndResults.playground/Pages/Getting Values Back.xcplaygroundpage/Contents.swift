@@ -33,3 +33,8 @@ let namedVideoMessage = "Hey Micah! \(videoMessage)"
 //:
 //: [Previous](@previous)  |  page 6 of 17  |  [Next: Giving Values Back](@next)
 //add your funtion below:
+func printFavorite(categoryOfThing:String , favorite:String) {
+    let things = "My favorite \(categoryOfThing) is \(favorite) "; print(things)
+}
+printFavorite(categoryOfThing: "subject", favorite: "math")
+

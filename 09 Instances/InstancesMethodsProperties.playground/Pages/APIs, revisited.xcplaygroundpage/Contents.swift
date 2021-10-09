@@ -16,10 +16,11 @@ let example = "It was the best of times"
 // Practice here by typing . after "example":
 example
 
-/*: 
+/*:
  APIs also come with documentation to help you learn about them and see how they should be used.
  
 [Previous](@previous)  |  page 8 of 17  |  [Next: What Does This Do?](@next)
 */
-
-
+example.hasPrefix("Result")
+example.hasSuffix("times")
+example.isEmpty

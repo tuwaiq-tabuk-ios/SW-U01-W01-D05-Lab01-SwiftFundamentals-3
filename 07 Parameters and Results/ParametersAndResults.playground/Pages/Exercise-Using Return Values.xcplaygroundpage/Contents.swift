@@ -17,15 +17,29 @@ func impossibleThingsPhrase() -> String {
     let meal = "teatime"
     return "Why, I've believed as many as \(numberOfImpossibleThings) before \(meal)"
 }
+
+
+
 //: - callout(Exercise): Update the `impossibleThingsPhrase` function so that, instead of using its two internal constants, it takes two arguments: `numberOfImpossibleThings` as an `Int` and `meal` as a `String`.
 //:
 //: Now you have two functions that take parameters and return values.
 //: - callout(Exercise): Call `impossibleBeliefsCount` and store the result in a constant.\
 //:Call `impossibleThingsPhrase`, passing in the result of `impossibleBeliefsCount` as one of the arguments.
+print("\n\n- - - - - Exercice1 - - - - -")
 
+func impossibleBeliefsCount2(pigsFlying: Int, frogsBecomingPrinces: Int, multipleLightningStrikes: Int) -> Int {
+    let total = pigsFlying + frogsBecomingPrinces + multipleLightningStrikes
+    return(total)
+}
 
+print("\n\n- - - - - Exercice2 - - - - -")
 
-
-
+func impossibleThingsPhrase(numberOfImpossibleThings: Int, meal:String) -> String {
+    
+    return "Why, I've believed as many as \(numberOfImpossibleThings) before \(meal)"
+}
+let result = impossibleBeliefsCount2(pigsFlying: 5, frogsBecomingPrinces: 6, multipleLightningStrikes: 10)
+let impssiblePhrase = impossibleThingsPhrase(numberOfImpossibleThings: result, meal: "teatime")
+        print(impssiblePhrase)
 
 //: [Previous](@previous)  |  page 15 of 17  |  [Next: Exercise: Argument Label](@next)

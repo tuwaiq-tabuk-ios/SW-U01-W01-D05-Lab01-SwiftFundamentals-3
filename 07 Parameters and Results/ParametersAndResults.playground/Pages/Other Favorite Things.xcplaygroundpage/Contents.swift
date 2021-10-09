@@ -17,3 +17,12 @@
 //: You’ve learned how to pass information in to a function. Now learn how to get information out.
 //:
 //: [Previous](@previous)  |  page 5 of 17  |  [Next: Getting Values Back](@next)
+print("\n\n- - - - - Exercice1 - - - - -")
+func printFavorite(categoryOfThing:String , favorite:String) {
+    let things = "My favorite \(categoryOfThing) is \(favorite) "; print(things)
+}
+printFavorite(categoryOfThing: "color", favorite: "black")
+
+
+
+
