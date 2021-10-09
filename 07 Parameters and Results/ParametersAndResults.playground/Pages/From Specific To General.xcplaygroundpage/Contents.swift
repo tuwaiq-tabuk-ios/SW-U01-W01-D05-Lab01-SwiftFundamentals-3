@@ -36,3 +36,9 @@ hello(name: "Vikram")
 //: Next get some practice by making your own function that takes an argument.
 //:
 //: [Previous](@previous)  |  page 2 of 17  |  [Next: Your Favorite Food](@next)
+func Welcome(name :String) {
+    
+    print(" Welcome " + name)
+}
+Welcome(name: "Shuruq")
+Welcome(name: "danah")

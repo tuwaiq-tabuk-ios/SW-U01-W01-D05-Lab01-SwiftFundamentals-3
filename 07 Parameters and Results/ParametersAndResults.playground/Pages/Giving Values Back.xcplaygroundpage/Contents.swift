@@ -26,3 +26,35 @@
 //: Next, learn when to use parameters and return values and when not to.
 //:
 //: [Previous](@previous)  |  page 7 of 17  |  [Next: Kinds of Function](@next)
+print("\n\n ------------Exercise 1 --------------")
+
+func makeFavorite(categoryOfThing: String,
+                  favorite: String) -> String {
+    
+    let result = "My favorite \(categoryOfThing) is \(favorite)"
+    return result
+}
+
+let sentence = makeFavorite(categoryOfThing: "food", favorite: "chesse")
+
+print(sentence)
+
+
+
+print("\n\n------------Exercise 2 --------------")
+
+func movieFavorite(Name : String , Evaluation : String) -> String {
+    let result1 = "My movie Favorite \(Name) is \(Evaluation)"
+    return result1
+}
+
+let sentence1 = movieFavorite(Name: "squid game", Evaluation: "10")
+
+print(sentence1)
+
+print("\n\n------------Exercise 3 --------------")
+
+let sentence3 = "Hello, my name is Shuruq. \(sentence) and \(sentence1)"
+print(sentence3)
+
+
