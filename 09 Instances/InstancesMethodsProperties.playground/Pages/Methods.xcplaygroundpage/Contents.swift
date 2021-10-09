@@ -18,6 +18,10 @@ let alternateIntroduction = "Once upon a time"
  Instance methods are called by using a period (`.`) after the instance, followed by the method call:
 */
 introduction.hasPrefix("It was")
+/*
+ تعتبر انها تبحث عن اذا كانت الكلمات موجوده اولا  ؟ من
+ خلال اسم التغير .
+ */
 
 introduction.hasPrefix("It wasn't")
 
@@ -35,3 +39,4 @@ alternateIntroduction.hasPrefix("It wasn't")
 
 [Previous](@previous)  |  page 4 of 17  |  [Next: Methods and Type Safety](@next)
 */
+

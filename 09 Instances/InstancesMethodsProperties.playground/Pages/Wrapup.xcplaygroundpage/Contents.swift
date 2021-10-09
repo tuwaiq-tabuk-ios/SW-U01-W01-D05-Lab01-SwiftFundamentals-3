@@ -19,4 +19,3 @@
 
 [Previous](@previous)  |  page 14 of 17  |  [Next: Exercise: The Return of BoogieBot](@next)
 */
-

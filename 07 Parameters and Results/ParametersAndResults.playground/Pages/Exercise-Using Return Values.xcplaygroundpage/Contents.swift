@@ -29,3 +29,43 @@ func impossibleThingsPhrase() -> String {
 
 
 //: [Previous](@previous)  |  page 15 of 17  |  [Next: Exercise: Argument Label](@next)
+print("\n\n- - - - - Exercice1 - - - - -")
+
+func impossibleBeliefsCount1(pigsFlying: Int, frogsBecomingPrinces: Int, multipleLightningStrikes: Int) -> Int {
+    let total = pigsFlying + frogsBecomingPrinces + multipleLightningStrikes
+    //print(total)
+    return total
+}
+let result = impossibleBeliefsCount1(pigsFlying: 10, frogsBecomingPrinces: 50, multipleLightningStrikes: 12)
+
+print(result)
+
+
+print("\n\n- - - - - Exercice2 - - - - -")
+
+func impossibleThingsPhrase1(numberOfImpossibleThings: Int ,
+                             meal: String ) -> String {
+    let numberOfImpossibleThings = 10
+    let meal = "teatime"
+   let massge =  "Why, I've believed as many as \(numberOfImpossibleThings) before \(meal)"
+    
+    return massge
+}
+let result2 = impossibleThingsPhrase1(numberOfImpossibleThings: 10, meal: "teatime")
+
+print(result2)
+
+
+
+print("\n\n- - - - - Exercice3 - - - - -")
+
+func impossiblePhrase2(numberOfImpossibleThings: Int ,
+                             meal: String ) -> String {
+  
+    return "why,I've believed as many as \(numberOfImpossibleThings) before \(meal)"
+}
+
+let result3 = impossibleBeliefsCount1(pigsFlying: 10, frogsBecomingPrinces: 50, multipleLightningStrikes: 12)
+
+let impossiblePhrase4 = impossiblePhrase2(numberOfImpossibleThings: result3, meal: "teatime")
+   print(impossiblePhrase4)
