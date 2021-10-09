@@ -16,11 +16,11 @@
  
  To solve this problem, you can use a different name for the parameter inside the function:
  */
-func printHello(to name: String) {
+/* func printHello(to name: String) {
     print("Hello " + name)
 }
 printHello(to: "Chris")
-printHello(to: "Johnny")
+printHello(to: "Johnny") */
 /*:
  The parameter has been named twice. You see the first name when you call it and you use the second name inside the body of the function.
  
@@ -34,3 +34,10 @@ printHello(to: "Johnny")
  
 [Previous](@previous)  |  page 11 of 17  |  [Next: The Argument Without a Name](@next)
  */
+func printHello( for student: String) {
+    print("Hello " + student)
+}
+printHello(for: "Chris")
+printHello(for: "Johnny")
+
+
