@@ -19,8 +19,20 @@ let finalScore = score(reds: 5, greens: 3, golds: 3)
  - callout(Exercise): Add an argument label to the function definition so it reads like this when you call it:\
  `let finalScore = score(withReds: 5, greens: 3, golds: 3)`
 */
+func score(withreds: Int, greens: Int, golds: Int) -> Int {
+    let pointsPerwithRed = 5
+    let pointsPerGreen = 15
+    let pointsPerGold = 38
+    
+    let withredScore = withreds * pointsPerwithRed
+    let greenScore = greens * pointsPerGreen
+    let goldScore = golds * pointsPerGold
+    
 
-
+    return  score(withreds: 5, greens: 3, golds: 3) + greenScore + goldScore
+}
+    
+let finalScore1 = score(withreds: 5, greens: 3, golds: 3)
 
 
 

@@ -22,4 +22,6 @@ example
 [Previous](@previous)  |  page 8 of 17  |  [Next: What Does This Do?](@next)
 */
 
-
+example.hasPrefix("result")
+example.hasSuffix("times")
+example.isEmpty
