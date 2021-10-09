@@ -33,3 +33,12 @@ let namedVideoMessage = "Hey Micah! \(videoMessage)"
 //:
 //: [Previous](@previous)  |  page 6 of 17  |  [Next: Giving Values Back](@next)
 //add your funtion below:
+
+func BushraFruit(numberApple: Int, numberOrange: Int) -> String {
+    let  numberApple = 10
+    let numberOrange = 3
+    let  BushraFruit = numberApple - numberOrange
+
+    return "If you have \(numberApple) apple  \(numberOrange) u perfect, you'll have \(BushraFruit) "
+}
+BushraFruit(numberApple: 10, numberOrange: 3)

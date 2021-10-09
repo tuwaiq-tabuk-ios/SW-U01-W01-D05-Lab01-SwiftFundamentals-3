@@ -34,3 +34,10 @@ printHello(to: "Johnny")
  
 [Previous](@previous)  |  page 11 of 17  |  [Next: The Argument Without a Name](@next)
  */
+print("\n\n ------------ Exercise 1 ------------")
+
+func printHi(to name: String) {
+    print("Hello " + name)
+}
+printHello(to: "Reem")
+printHello(to: "Jo")
