@@ -14,8 +14,6 @@
  Remember that `->` is used to say that a function returns a value.
 */
 
-
-
 //: - experiment: Call your new function a few times with some different categories, assigning each result to a different constant. Why not try categories like food, movie, school subject or band?
 
 
@@ -26,3 +24,16 @@
 //: Next, learn when to use parameters and return values and when not to.
 //:
 //: [Previous](@previous)  |  page 7 of 17  |  [Next: Kinds of Function](@next)
+
+
+func sentence (categoryOfThing:String,favorite:String)-> String {
+    return " my \(categoryOfThing) is \(favorite)"
+    
+}
+let sentence1 = sentence(categoryOfThing: "PC", favorite: "iMac")
+let sentence2 = sentence(categoryOfThing: "jop", favorite: "Teacher")
+
+print("Hello, my name is mohammed. \(sentence1) \(sentence2)")
+
+
+

@@ -20,3 +20,7 @@ example.isEmpty
  
 [Previous](@previous)  |  page 9 of 17  |  [Next: Quick Help](@next)
 */
+//let example: String
+//func hasSuffix(_ suffix: String) -> Bool
+//func hasPrefix(_ prefix: String) -> Bool
+//var isEmpty: Bool { get }
