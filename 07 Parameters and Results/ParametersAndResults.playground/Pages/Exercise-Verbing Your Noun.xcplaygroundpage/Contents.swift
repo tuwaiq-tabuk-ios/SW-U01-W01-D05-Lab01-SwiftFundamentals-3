@@ -15,3 +15,8 @@
 
 
 //: [Previous](@previous)  |  page 14 of 17  |  [Next: Exercise: Using Return Values](@next)
+func printArgument( Row :String , Boat: String  ) {
+print ("let line = OpeningLine" + Row , Boat)
+}
+
+printArgument( Raw : " Raw , row , row , row" )

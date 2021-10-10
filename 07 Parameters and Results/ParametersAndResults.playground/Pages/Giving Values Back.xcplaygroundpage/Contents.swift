@@ -26,3 +26,8 @@
 //: Next, learn when to use parameters and return values and when not to.
 //:
 //: [Previous](@previous)  |  page 7 of 17  |  [Next: Kinds of Function](@next)
+func favorite (categoryOfThing :String , favorite :String)
+
+sentence  categoryOfThing; "food" , favorite; "cheese"
+
+print "my favorite  is sentece"

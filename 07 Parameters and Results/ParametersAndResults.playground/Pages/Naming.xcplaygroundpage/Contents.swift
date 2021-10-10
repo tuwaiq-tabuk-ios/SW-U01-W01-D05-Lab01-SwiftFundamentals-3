@@ -25,3 +25,8 @@ printHello(to: "Maya")
  
 [Previous](@previous)  |  page 10 of 17  |  [Next: Parameter Names and Argument Labels](@next)
 */
+func printWork(work: String) {
+    print ("the last Letter of work is " + work)
+}
+
+printWork(work: "k")

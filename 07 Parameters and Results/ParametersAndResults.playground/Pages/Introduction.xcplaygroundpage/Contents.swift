@@ -15,3 +15,9 @@
  
 page 1 of 17  |  [Next: From Specific to General](@next)
 */
+func doSomething(){
+    print ("Hello, word")
+    
+}
+
+doSomething()

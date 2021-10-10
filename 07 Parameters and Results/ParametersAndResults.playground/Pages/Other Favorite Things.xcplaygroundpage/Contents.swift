@@ -17,3 +17,21 @@
 //: You’ve learned how to pass information in to a function. Now learn how to get information out.
 //:
 //: [Previous](@previous)  |  page 5 of 17  |  [Next: Getting Values Back](@next)
+func food (categoryOfThing :String , favorite:String ) {
+    let categoryOfThing = "food"
+    let favorite = "cheese"
+    print("My favorite \(categoryOfThing) is \(favorite)")
+
+
+}
+
+
+func Food( categoryOfThing : String , favorite : String ){
+   
+    
+    let categoryOfThing = " food "
+    let favorite = " cheese "
+    
+    print("My favorite \(categoryOfThing) is \(favorite)")
+}
+

@@ -24,3 +24,8 @@ printHelloTo("Hiro")
 //: Now it’s time to summarize what you’ve learned.
 //:
 //: [Previous](@previous)  |  page 12 of 17  |  [Next: Wrapup](@next)
+func printHelloTo( name: String) {
+    print("Hello " + name)
+}
+printHelloTo("sara")
+printHelloTo("ahmad")

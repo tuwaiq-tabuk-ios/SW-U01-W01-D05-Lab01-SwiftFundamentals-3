@@ -12,9 +12,13 @@
  _Hint: You can go back to the previous page to check on how to define a function with a parameter._
 */
 
-
-
-
 //: Wouldn’t it be useful to pass in more than one value? Find out how.
 //:
 //: [Previous](@previous)  |  page 3 of 17  |  [Next: Passing More Values](@next)
+func Favoritefood() {
+    let food = "cheese"
+print ("my favorite food" + food)
+
+}
+
+Favoritefood()
